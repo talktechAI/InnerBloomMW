@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Inner Bloom Mental Wellness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">IB</div>
+            <h1>Inner Bloom Mental Wellness</h1>
+            
+            <div class="nav-buttons">
+                <a href="index.html" class="nav-button">Home</a>
+                <a href="index.html#about-content" class="nav-button">About me</a>
+                <a href="index.html#services-content" class="nav-button">Services</a>
+                <a href="index.html#contact-content" class="nav-button">Contact</a>
+            </div>
+        </header>
+        
+        <div class="content">
+            <h2>Privacy Policy</h2>
+            
+            <h3>Information We Collect</h3>
+            <p>We collect information you provide directly to us, such as when you fill out our contact form, including your name, email address, phone number, and any messages you send.</p>
+            
+            <h3>How We Use Your Information</h3>
+            <p>We use the information we collect to respond to your inquiries, provide services, and communicate with you. We will not share your information with third parties without your consent, except as required by law.</p>
+            
+            <h3>Data Security</h3>
+            <p>We implement appropriate security measures to protect against unauthorized access, alteration, or destruction of your personal information.</p>
+            
+            <h3>Your Rights</h3>
+            <p>You have the right to request access to, correction of, or deletion of your personal data. Please contact us at Amanda@innerbloommw.com for any such requests.</p>
+            
+            <h3>Changes to This Policy</h3>
+            <p>We may update this privacy policy from time to time. The current version will always be posted on our website.</p>
+            
+            <p>Last Updated: <span id="policy-date"></span></p>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+                <p>&copy; <span id="current-year"></span> Inner Bloom Mental Wellness. All rights reserved.</p>
+                <a href="index.html" class="nav-button">Back to Home</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Set policy date
+        document.getElementById('policy-date').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
